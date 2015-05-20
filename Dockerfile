@@ -37,7 +37,7 @@ RUN find /etc/php5/cli/conf.d/ -name "*.ini" -exec sed -i -re 's/^(\s*)#(.*)/\1;
 ADD ./nginx-site.conf /etc/nginx/sites-available/default
 
 # ssl certificates
-ADD ../ssl /etc/nginx/ssl
+ADD ssl/ /etc/nginx/ssl
 
 # Supervisor Config
 RUN /usr/bin/easy_install supervisor
