@@ -1,4 +1,6 @@
-# docker-wordpress-nginx
+## Updated to use SSL
+
+# docker-wordpress-nginx - 102Somerton
 
 A Dockerfile that installs the latest wordpress, nginx, php-apc and php-fpm.
 
